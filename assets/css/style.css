@@ -1,0 +1,47 @@
+body {	/*the outer layer of the site and global style attributes*/
+font-family: "Garamond", "Garamond", Garamond, Garamond;
+margin: 0px;
+padding: 0px;
+background: white;
+}
+
+.home {
+	margin: auto;
+}
+
+.directory1 {
+	position: relative;
+	float: left;
+	padding-left: 100px;
+	height: 100px;
+}
+
+.directory2 {
+	position: relative;
+	float: center;
+	clip: rect (0px,50px,0px,0px);
+}
+
+.directory3 {
+	position: relative;
+	float: left;
+	max-width: 100px;
+}
+
+.written {
+	width: 500px;
+	margin-left: 50px;
+}
+
+.directory1, .directory2, .directory3 {
+
+}
+
+.directory1:hover, .directory2:hover, .directory3:hover {
+	color: yellow;
+}
+
+
+.hypothetical, .written, .inspiration {
+	padding-top: 500px;
+}
