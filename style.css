@@ -1,0 +1,164 @@
+body {
+	font-family: "Garamond", "Garamond", Garamond, Garamond;
+	margin: 0;
+	padding: 0;
+}
+/*General functions applied to HTML*/
+.center {
+	margin: auto;
+	width: 50%;
+}
+/*no margin*/
+.margin {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*General formatting*/
+h2 {
+	text-align: center;
+	font-size: 400%;
+	font-family: Futura;
+	color: lime;
+	}
+
+
+
+/*About Me*/
+.section1 {
+	display: block;
+	height: 800px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bd/Olivetti-Valentine.jpg);
+	background-attachment: fixed;
+
+}
+
+.aboutmevideo {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 144px;
+}
+
+.amtext {
+	position: absolute;
+	left: -150px;
+	width: 100px;
+	top: 5px;
+	font-family: Futura;
+	font-size: 350%;
+	font-style: italic;
+	color: lime;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
+
+
+
+/*Portfolio*/
+
+.section2 {
+	display: block;
+	height: 900px;
+	background-image: url(https://a.1stdibscdn.com/archivesE/1stdibs/071513/AlmondCC_DM/9/DSC_0065.jpg);
+	background-attachment: fixed;
+
+}
+
+.ptitle {
+	position: relative;
+	top: 30px;
+	height: 200px;
+	margin-bottom: 150px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.box {
+	border: 3px lime solid;
+}
+
+.container {
+	display: grid;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -200px;
+	grid-template-areas: "ProdDev1 ProdDev2"
+		"data website"
+		"illustrator clothing";
+	grid-template-columns: repeat(2, 1fr); /*400px looks good */
+	max-width: 1000px;
+	min-width: 700px;
+	grid-template-rows: repeat(3, 200px);
+	grid-gap: 30px;
+}
+
+section {
+	overflow: hidden;
+}
+
+/*Grid Formatting*/
+.ProdDev1 {
+	grid-area: ProdDev1;
+}
+.ProdDev2 {
+	grid-area: ProdDev2;
+}
+.data {
+	grid-area: data;
+}
+.illustrator {
+	grid-area: illustrator;
+}
+.clothing {
+	grid-area: clothing;
+}
+.website {
+	grid-area: website;
+}
+
+
+
+
+/*Proposal*/
+.section3 {
+	display: block;
+	height: 700px;
+	background-image: url(http://i.imgur.com/YZUa4nU.jpg);
+	background-attachment: fixed;
+}
+
+.proptitle {
+	font-style: italic;
+}
+
+.propvideo {
+	position: relative;
+	left: 0;
+	right: 0;
+	top: 50px;
+}
+
+
+/*Section4*/
+.section4 {
+	display: block;
+	height: 500px;
+	background-image: linear-gradient(rgb(72, 66, 244), rgb(156, 50, 242));
+	overflow: hidden;
+}
+
+.things {
+	font-style: italic;
+}
+
+.section4 ol {
+	color: white;
+	font-family: Futura;
+	font-size: 150%;
+	position: relative;
+	left: 70px;
+}
