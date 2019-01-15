@@ -299,6 +299,32 @@ section:hover, section:active {
 
 /* Illustrator Page */
 
+.section1a {
+	background-color: rgb(255, 148, 56);
+	background-position: fixed;
+	height: 800px;
+}
+
+.section1a h1 {
+	margin-top: 0;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	font-family: Futura;
+	font-size: 300%
+}
+
+.section1a h3 {
+	color: white;
+	text-align: center;
+	font-size: 150%;
+	width: 70%;
+	min-width: 300px;
+	font-family: Futura;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #carousela {
     width: 90%;
     height: 370px;
@@ -312,6 +338,8 @@ section:hover, section:active {
 }
 
 
+
+
 /* Clothing Page*/
 .video-background {
   background: #000;
@@ -319,6 +347,14 @@ section:hover, section:active {
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
 }
+
+/*#fashiontext {
+	text-align: center;
+	font-size: 400%;
+	font-family: Futura;
+	color: lime;
+	background-color: none;
+}*/
 
 .video-foreground,
 .video-background iframe {
