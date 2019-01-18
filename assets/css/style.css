@@ -102,7 +102,7 @@ section {
 	overflow: hidden;
 	color: red;
 	font-family: Times New Roman;
-	font-size: 100%;
+	font-size: 125%;
 	border: medium solid red;
 	height: 100%;
 }
@@ -347,14 +347,6 @@ section:hover, section:active {
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
 }
-
-/*#fashiontext {
-	text-align: center;
-	font-size: 400%;
-	font-family: Futura;
-	color: lime;
-	background-color: none;
-}*/
 
 .video-foreground,
 .video-background iframe {
