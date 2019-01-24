@@ -14,14 +14,15 @@ body {
 	padding: 0;
 }
 
-
 /*General formatting*/
 h2 {
 	text-align: center;
 	font-size: 400%;
 	font-family: Futura;
 	color: lime;
-	}
+}
+
+
 
 
 
@@ -31,21 +32,24 @@ h2 {
 	height: 800px;
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bd/Olivetti-Valentine.jpg);
 	background-attachment: fixed;
-
 }
 
 .aboutmevideo {
-	position: absolute;
+	position: relative;
+	display: block;
+	top: 144px;
 	left: 0;
 	right: 0;
-	top: 144px;
+	margin-left: auto;
+  	margin-right: auto;
 }
 
 .amtext {
-	position: absolute;
-	left: -150px;
-	width: 100px;
-	top: 5px;
+	position: relative;
+	margin-left: auto;
+  	margin-right: auto;
+	left: -375px;
+	top: -320px;
 	font-family: Futura;
 	font-size: 350%;
 	font-style: italic;
@@ -53,6 +57,7 @@ h2 {
 	writing-mode: vertical-rl;
 	text-orientation: upright;
 }
+
 
 
 
@@ -75,10 +80,6 @@ h2 {
 	font-weight: bold;
 	font-style: italic;
 }
-
-/*.box {
-	border: 3px rgb(255, 148, 56) solid;
-}*/
 
 .container {
 	display: grid;
@@ -143,6 +144,10 @@ section:hover, section:active {
 
 
 
+/** {
+	border: 1px red solid;
+}*/
+
 /*Proposal*/
 .section3 {
 	display: block;
@@ -157,9 +162,12 @@ section:hover, section:active {
 
 .propvideo {
 	position: relative;
+	display: block;
+	top: 50px;
 	left: 0;
 	right: 0;
-	top: 50px;
+	margin-left: auto;
+  	margin-right: auto;
 }
 
 
@@ -201,16 +209,6 @@ section:hover, section:active {
 	background-position: fixed;
 	height: 2000px;
 }
-
-
-/*.navd {
-	position: fixed;
-	font-family: Futura;
-	font-style: italic;
-	font-size: 250%;
-	color: rgba(133, 187, 242, 0.9);
-	z-index: 2;
-}*/
 
 .introd {
 	margin-top: 0px;
