@@ -207,7 +207,7 @@ section:hover, section:active {
 .section1d {
 	background-color: rgb(255, 148, 56);
 	background-position: fixed;
-	height: 2000px;
+	height: 2500px;
 }
 
 .introd {
@@ -258,6 +258,17 @@ section:hover, section:active {
 }
 
 #wrapper2:after {
+  content: "";
+  background-color: #fff;
+  position: relative;
+  width: 5px;
+  height: 100px;
+  top: 10px;
+  left: 50%;
+  display: block;
+}
+
+#wrapper3:after {
   content: "";
   background-color: #fff;
   position: relative;
