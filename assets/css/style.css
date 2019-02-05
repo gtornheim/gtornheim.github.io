@@ -144,9 +144,7 @@ section:hover, section:active {
 
 
 
-/** {
-	border: 1px red solid;
-}*/
+
 
 /*Proposal*/
 .section3 {
@@ -176,7 +174,7 @@ section:hover, section:active {
 /*Section4*/
 .section4 {
 	display: block;
-	height: 500px;
+	height: 400px;
 	background-image: linear-gradient(rgb(72, 66, 244), rgb(156, 50, 242));
 	overflow: hidden;
 }
@@ -199,7 +197,19 @@ section:hover, section:active {
 	list-style-position: inside;
 }
 
+/* {
+	border: 1px red solid;
+}*/
 
+.contact {
+	margin: auto;
+	width: 50%;
+	color: white;
+	padding-top: 50px;
+	padding-left: 50px;
+	text-align: center;
+	font-family: Futura;
+}
 
 
 
