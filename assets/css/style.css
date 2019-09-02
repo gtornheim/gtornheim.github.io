@@ -23,13 +23,15 @@ h2 {
 }
 
 
-
+/* {
+	border: 1px red solid;
+}*/
 
 
 /*About Me*/
 .section1 {
 	display: block;
-	height: 800px;
+	height: 650px;
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bd/Olivetti-Valentine.jpg);
 	background-attachment: fixed;
 }
@@ -37,7 +39,7 @@ h2 {
 .aboutmevideo {
 	position: relative;
 	display: block;
-	top: 144px;
+	top: 50px;
 	left: 0;
 	right: 0;
 	margin-left: auto;
@@ -46,27 +48,27 @@ h2 {
 
 .amtext {
 	position: relative;
-	margin-left: auto;
-  	margin-right: auto;
-	left: -375px;
-	top: -320px;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	top: 30px;
 	font-family: Futura;
 	font-size: 350%;
 	font-style: italic;
 	color: lime;
-	writing-mode: vertical-rl;
-	text-orientation: upright;
 }
 
 
-
+/* {
+	border: 1px red solid;
+}*/
 
 
 /*Portfolio*/
 
 .section2 {
 	display: block;
-	height: 900px;
+	height: 650px;
 	background-image: url(https://a.1stdibscdn.com/archivesE/1stdibs/071513/AlmondCC_DM/9/DSC_0065.jpg);
 	background-attachment: fixed;
 
@@ -88,12 +90,12 @@ h2 {
 	margin-right: auto;
 	margin-top: -200px;
 	grid-template-areas: "ProdDev1 ProdDev2"
-		"data website"
-		"illustrator clothing";
+		"data illustrator"
+		"clothing";
 	grid-template-columns: repeat(2, 1fr); /*400px looks good */
 	max-width: 700px;
 	min-width: 700px;
-	grid-template-rows: repeat(3, 200px);
+	grid-template-rows: repeat(2, 200px);
 	grid-gap: 30px;
 }
 
@@ -102,7 +104,7 @@ section {
 	text-align: center;
 	overflow: hidden;
 	color: red;
-	font-family: Times New Roman;
+	font-family: Helvetica;
 	font-size: 125%;
 	border: medium solid red;
 	height: 100%;
@@ -124,21 +126,24 @@ section:hover, section:active {
 /*Grid Formatting*/
 .ProdDev1 {
 	grid-area: ProdDev1;
+	border-radius: 15px;
+
 }
 .ProdDev2 {
 	grid-area: ProdDev2;
+	border-radius: 15px;
 }
 .data {
 	grid-area: data;
+	border-radius: 15px;
 }
 .illustrator {
 	grid-area: illustrator;
+	border-radius: 15px;
 }
 .clothing {
 	grid-area: clothing;
-}
-.website {
-	grid-area: website;
+	border-radius: 15px;
 }
 
 
@@ -197,9 +202,6 @@ section:hover, section:active {
 	list-style-position: inside;
 }
 
-/* {
-	border: 1px red solid;
-}*/
 
 .contact {
 	margin: auto;
@@ -358,7 +360,6 @@ section:hover, section:active {
 
 
 
-
 /* Clothing Page*/
 .video-background {
   background: #000;
@@ -378,4 +379,39 @@ section:hover, section:active {
 
 .cbottom {
 	padding-bottom: 800px;
+}
+
+/* Thonet */
+
+
+.fun {
+	height: 100%;
+	background-color: yellow;
+}
+
+.funtitle {
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 25px;
+	display: block;
+	padding: 0;
+	padding-bottom: 25px;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+.chair14 {
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.thonettext {
+	font-family: Helvetica;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
