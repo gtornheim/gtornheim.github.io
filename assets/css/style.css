@@ -19,7 +19,7 @@ h2 {
 	text-align: center;
 	font-size: 400%;
 	font-family: Futura;
-	color: lime;
+	color: rgb(37, 148, 245);
 }
 
 
@@ -55,7 +55,7 @@ h2 {
 	font-family: Futura;
 	font-size: 350%;
 	font-style: italic;
-	color: lime;
+	color: rgb(37, 148, 245);
 }
 
 
@@ -105,8 +105,9 @@ section {
 	overflow: hidden;
 	color: red;
 	font-family: Helvetica;
+	font-weight: lighter;
 	font-size: 125%;
-	border: medium solid red;
+	/*border: medium solid red;*/
 	height: 100%;
 }
 
@@ -118,7 +119,7 @@ section:link, section:visited {
 
 
 section:hover, section:active {
-  background-color: red;
+  background-color: rgb(30, 130, 217);
   color: white;
 }
 
@@ -127,23 +128,32 @@ section:hover, section:active {
 .ProdDev1 {
 	grid-area: ProdDev1;
 	border-radius: 15px;
-
+	background-color: rgb(37, 148, 245);
+	color: white;
 }
 .ProdDev2 {
 	grid-area: ProdDev2;
 	border-radius: 15px;
+	background-color: rgb(37, 148, 245);
+	color: white;
 }
 .data {
 	grid-area: data;
 	border-radius: 15px;
+	background-color: rgb(37, 148, 245);
+	color: white;
 }
 .illustrator {
 	grid-area: illustrator;
 	border-radius: 15px;
+	background-color: rgb(37, 148, 245);
+	color: white;
 }
 .clothing {
 	grid-area: clothing;
 	border-radius: 15px;
+	background-color: red;
+	color: white;
 }
 
 
