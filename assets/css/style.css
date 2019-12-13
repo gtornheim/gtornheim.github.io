@@ -22,6 +22,16 @@ h2 {
 	color: rgb(37, 148, 245);
 }
 
+h5 {
+	position: relative;
+	text-align: center;
+	padding-top: 40px;
+	margin: auto;
+	font-size: 100%;
+	width: 500px;
+	font-family: Futura;
+	color: rgb(37, 148, 245);
+}
 
 /* {
 	border: 1px red solid;
@@ -31,7 +41,7 @@ h2 {
 /*About Me*/
 .section1 {
 	display: block;
-	height: 650px;
+	height: 750px;
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bd/Olivetti-Valentine.jpg);
 	background-attachment: fixed;
 }
